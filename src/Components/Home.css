@@ -1,0 +1,57 @@
+.filter_bar {
+    background-color: rgb(217, 233, 247);
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(61, 61, 61);
+}
+
+.One_filter {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(195, 222, 245);
+    padding: 5px 25px;
+    border-radius: 5px;
+    box-shadow: rgba(180, 178, 178, 0.24) 0px 3px 8px;
+    cursor: pointer;
+}
+
+.One_filter>* {
+    margin: 2px 5px;
+    height: 21px;
+}
+
+.One_filter svg {
+    transition: transform 0.5s ease-in-out;
+}
+
+.modal_list {
+    opacity: 0;
+    top: 35px;
+    left: -80px;
+    position: absolute;
+    width: 300px;
+    background-color: inherit;
+    overflow: hidden;
+    transition: opacity 0.5s ease-in-out, min-height 0.5s ease-in-out;
+    border-radius: 10px;
+    transform: rotate();
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.modal_list>* {
+    padding: 4px 10px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.modal_list input{
+    margin-right: 10px;
+}
+

@@ -1,0 +1,21 @@
+.navbar{
+    width: 100vw;
+    height: 50px;
+    background-color: powderblue;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.navbar ul{
+    width: 700px;
+    height: fit-content;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar ul li{
+    margin: 0px 10px;
+    list-style: none;
+    font-size: larger;
+}
