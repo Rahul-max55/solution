@@ -35,6 +35,7 @@
     left: -80px;
     position: absolute;
     width: 300px;
+    min-height: 200px;
     background-color: inherit;
     overflow: hidden;
     transition: opacity 0.5s ease-in-out, min-height 0.5s ease-in-out;
@@ -46,7 +47,8 @@
 }
 
 .modal_list>* {
-    padding: 4px 10px;
+    height: 30px;
+    padding: 2px 10px;
     font-size: 20px;
     margin-left: 10px;
 }

@@ -1,7 +1,8 @@
-export const filterRadio = (id) => {
+export const filterName = (val) => {
+    console.log(val);
     return {
-        type: "FILTERRADIO",
-        id:id
+        type: "FILTERNAME",
+        val:val
     }
-
 }
+

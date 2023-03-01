@@ -27,6 +27,13 @@ const api = [
         price: 6500,
         rating: 3.5
     },
+    {
+        id: 6000,
+        name: "Band",
+        image: "https://cdn.shopify.com/s/files/1/0232/5737/products/IMGL4833copycopy_1500x.jpg?v=1656274049",
+        price: 600,
+        rating: 3.8
+    },
 ]
 
 

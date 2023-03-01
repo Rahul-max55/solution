@@ -9,19 +9,15 @@ const Product = () => {
 
     const data = useSelector(store => store.filters);
 
-    const { filteredProd, intialApiVal } = data;
-    console.log(filteredProd);
+    const { filteredProd } = data;
 
     return (
         <div className="products_box">
-            {intialApiVal.map((v) => {
-
-                if (filteredProd.includes(v.name)) {
-                    return <Cards id={v.id} image={v.image} name={v.name} price={v.price} />
-                }
+            {filteredProd.map((v , i) => {
+                return <Cards key={i} id={v.id} image={v.image} name={v.name} price={v.price} />
             }
-         )
-        }
+            )
+            }
         </div>
     )
 }
